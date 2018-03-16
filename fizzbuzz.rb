@@ -9,3 +9,5 @@ def fizzbuzz(value)
     return nil;
   end
 end
+
+fizzbuzz(3)
