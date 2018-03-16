@@ -6,6 +6,6 @@ def fizzbuzz(value)
     elsif (value % 3 && value % 5) == 0 
     puts "fizzbuzz"
   else
-    puts ""
+    return nil;
   end
 end
