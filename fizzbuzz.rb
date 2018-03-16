@@ -3,7 +3,9 @@ def fizzbuzz(value)
     puts "fizz"
     elsif value % 5 == 0 
     puts "buzz"
-    elsif value % 15 == 0 
+    elsif (value % 3 && value % 5) == 0 
     puts "fizzbuzz"
+  else
+    puts ""
   end
 end
