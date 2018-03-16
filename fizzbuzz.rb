@@ -3,3 +3,5 @@ def fizzbuzz(value)
     puts "fizz"
   end
 end
+
+fizz_3=fizzbuzz()
